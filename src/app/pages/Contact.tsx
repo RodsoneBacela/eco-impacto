@@ -293,58 +293,6 @@ export function Contact() {
           </div>
         </div>
       </section>
-
-      {/* Office Hours */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <Card>
-              <CardContent className="p-8">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center">
-                    <Clock className="text-[#2563eb]" size={32} />
-                  </div>
-                  <div>
-                    <h2 className="text-2xl font-bold">Horário de Atendimento</h2>
-                    <p className="text-gray-600">Estamos disponíveis para atendê-lo</p>
-                  </div>
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center py-2 border-b">
-                      <span className="font-medium">Segunda-feira</span>
-                      <span className="text-gray-600">08:00 - 17:00</span>
-                    </div>
-                    <div className="flex justify-between items-center py-2 border-b">
-                      <span className="font-medium">Terça-feira</span>
-                      <span className="text-gray-600">08:00 - 17:00</span>
-                    </div>
-                    <div className="flex justify-between items-center py-2 border-b">
-                      <span className="font-medium">Quarta-feira</span>
-                      <span className="text-gray-600">08:00 - 17:00</span>
-                    </div>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center py-2 border-b">
-                      <span className="font-medium">Quinta-feira</span>
-                      <span className="text-gray-600">08:00 - 17:00</span>
-                    </div>
-                    <div className="flex justify-between items-center py-2 border-b">
-                      <span className="font-medium">Sexta-feira</span>
-                      <span className="text-gray-600">08:00 - 17:00</span>
-                    </div>
-                    <div className="flex justify-between items-center py-2 border-b">
-                      <span className="font-medium">Fim de semana</span>
-                      <span className="text-[#f97316] font-semibold">Fechado</span>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

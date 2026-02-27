@@ -20,42 +20,6 @@ import {
 
 export function About() {
 
-  const timeline = [
-    {
-      year: "2020",
-      title: "Fundação",
-      description: "Início da EcoImpacto Academy com foco em formação prática e contextualizada",
-    },
-    {
-      year: "2021",
-      title: "Expansão Digital",
-      description: "Lançamento da plataforma online de e-learning",
-    },
-    {
-      year: "2022",
-      title: "Parcerias Internacionais",
-      description: "Estabelecimento de parcerias com instituições internacionais",
-    },
-    {
-      year: "2023",
-      title: "Certificação Regional",
-      description: "Reconhecimento como centro de formação de excelência na região",
-    },
-    {
-      year: "2024",
-      title: "Crescimento Sustentável",
-      description: "Mais de 1,500 profissionais formados e expansão para novos países",
-    },
-  ];
-
-  const team = [
-    {
-      name: "Dra. Amélia Santos",
-      role: "Directora Executiva",
-      description: "Especialista em Desenvolvimento Sustentável com 15 anos de experiência",
-      image: "https://images.unsplash.com/photo-1739300293504-234817eead52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwYnVzaW5lc3MlMjBwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwxfHx8fDE3NzIwNjU3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    },
-  ];
 
   return (
     <div className="w-full">
@@ -112,7 +76,7 @@ export function About() {
         </div>
       </section>
 
-      {/* Our Story */}
+      {/* Story */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -122,7 +86,7 @@ export function About() {
               </h2>
               <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
                 <p>
-                  Na EcoImpacto Academy, acreditamos que a transformação social e ambiental começa pelo conhecimento. Fundada por um grupo de especialistas com vasta experiência em projetos de desenvolvimento em África, nossa academia nasceu da necessidade de oferecer formações práticas e contextualizadas.
+                  Na EcoImpacto, acreditamos que a transformação social e ambiental começa pelo conhecimento. Fundada por um grupo de especialistas com vasta experiência em projetos de desenvolvimento em África, nossa academia nasceu da necessidade de oferecer formações práticas e contextualizadas.
                 </p>
                 <p>
                   O nosso propósito é formar profissionais, líderes comunitários e organizações para que possam gerir projetos de impacto, implementar salvaguardas sociais e ambientais, promover ambientes de trabalho mais seguros e contribuir para um desenvolvimento sustentável em Moçambique e além-fronteiras.
@@ -134,8 +98,8 @@ export function About() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1590084700235-5e5b781e05b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBkZXZlbG9wbWVudCUyMG1vemFtYmlxdWUlMjBhZnJpY2F8ZW58MXx8fHwxNzcyMTMzOTY2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Community development"
+                src="/eco.webp"
+                alt="eco-logo"
                 className="w-full h-[500px] object-cover"
               />
             </div>
